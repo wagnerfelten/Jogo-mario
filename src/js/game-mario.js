@@ -14,7 +14,7 @@ const night = setInterval(() => {
   }, 700)
 
   clearInterval(night);
-}, 1296000)
+}, 1000)
 
 
 
