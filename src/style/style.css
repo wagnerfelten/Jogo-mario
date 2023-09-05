@@ -111,8 +111,13 @@ h2{
   color: #fff;
 }
 
+.score{
+  display: flex;
+  align-items: center;
+  color: brown;
+}
+
 h3{
-  position: absolute;
   padding: 15px;
 }
 

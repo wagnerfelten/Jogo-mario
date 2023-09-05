@@ -6,7 +6,7 @@ const game = document.querySelector(".game");
 
 
 const night = setInterval(() => {
-  game.classList.add("night"); 
+  game.classList.add("night");
   game.classList.remove("game");
 
   setTimeout(() => {
@@ -14,13 +14,16 @@ const night = setInterval(() => {
   }, 700)
 
   clearInterval(night);
-}, 1000)
+}, 21000)
 
+let jumpSum = 0;
 
-
+console.log(jumpSum+1)
 const jump = () => {
   mario.classList.add("jump");
 
+  document.getElementById("pontuacao").innerHTML = jumpSum++;
+  
   setTimeout(() => {
     mario.classList.remove("jump");
   }, 500);
