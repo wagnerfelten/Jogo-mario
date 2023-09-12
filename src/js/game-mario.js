@@ -29,6 +29,8 @@ const jump = () => {
   }, 500);
 };
 
+jumpMobile.addEventListener("click", jump);
+
 function reset() {
   window.location.reload(true);
   gameOver.classList.add("hide");
