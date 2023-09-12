@@ -125,6 +125,29 @@ h3{
   display: none;
 }
 
+.jumpMobileButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 48px;
+}
+
+#jumpMobile{
+  background-color: gray;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#jumpMobile:hover{
+  background-color: #3f4547;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 @keyframes pipe-animation {
   from {
